@@ -1,0 +1,31 @@
+? anzahl der nicht negativen
+? anzahl von vertauschungen in einer unsortierten liste
++ binärdarstellung
++ binäre suche
+K dichtestes punktepaar
+K divide-and-conquer eigenvalue algorithm
+K FFt
++ Größter gemeinsamer Teiler 
++ Ggt mehrere Zahlen
+? Integration mit Trapezregel
+K Introsort (introspective quicksort) (quicksort / heapsort)
+? Karatsuba (Langzahl Mult)
+Konvexe Hülle
+k-t größtes Element
+Maximale-konsektuive Teilfolge
+Maximum
+Max-Suche in unimodaler liste
+K Median
+Merge-Sort
+MInMax Findung
+Polynom Multiplikation
+Potenzireeen
+Quad-Trees
+Quick-Sort
+Quick-Sort mit median of three
+Sequence alignment
+Skyline
+Strassen
+Summe der Beträge
+Summe der Einträge
+Viterbi

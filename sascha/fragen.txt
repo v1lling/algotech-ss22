@@ -1,0 +1,9 @@
+Greedy:
+
+- Wie sehr darf ich abstrahieren? Pseudo-Code
+Bsp: Springerproblem, nächstes anspringbares Feld
+
+- Darf ich vor dem Greedy-Schritt schon Berechnungen machen?
+Bsp. Partionsproblem: Summe von Gesamtfolge berechnen,
+damit ich weiß, wie groß Summe der Teilfolgen sein muss.
+
