@@ -34,8 +34,8 @@ def partition3(array):
     mid = total/2
 
     while(len(array) > 0):
-        x = max(array)
-        array.remove(max(array))
+        x = array[0]
+        array.remove(x)
         if (sum1+x <= mid):
             list1.append(x)
             sum1 += x
@@ -46,10 +46,9 @@ def partition3(array):
     return list1, list2
 
 
-w = [1,3,2,1,2,1]
-p = [1,3,2,1,2,1]
-q = [1,3,2,1,2,1]
-
+w = [1,1,1,4,5]
+p = w.copy()
+q = w.copy()
 print(w)
 print(partition(w))
 print(partition2(p))
