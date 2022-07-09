@@ -2,10 +2,11 @@ from icecream import ic
 
 def kartenfaerbung(laender, nachbarn):
     for i,land in enumerate(laender): # O(n)
-        if not zugeteilte_farben[i]: # O(1) ???
+        if not zugeteilte_farben[i]: # O(1)
             for j,nachbar in enumerate(nachbarn[i]): # O(n)
-                if nachbar==0: # O(1)
-                    zugeteilte_farben[j] = farben[i] # O(1)
+                if not zugeteilte_farben[j]: # O(1)
+                    if nachbar==0: # O(1)
+                        zugeteilte_farben[j] = farben[i] # O(1)
 
 zugeteilte_farben = ["", "", "", "", ""]
 laender = ["DE", "FR", "ES", "PO", "CH"]

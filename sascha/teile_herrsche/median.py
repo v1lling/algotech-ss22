@@ -34,9 +34,6 @@ def median_of_medians(A, left, right):
 
     return median_of_medians(medians, 0, len(medians))
 
-
-
-
 list = [100,3,9,11,1,12,5]
 
 ic(
