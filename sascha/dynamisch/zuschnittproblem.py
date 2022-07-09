@@ -14,7 +14,6 @@ def G(i):
 
     return max(G(i-1), erloes) # Rekursion
 
-
 ic(G(n))
 
 

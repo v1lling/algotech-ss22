@@ -28,8 +28,7 @@ def mergesort(data_to_sort):
         while j < len(rightarray):
             data_to_sort[k] = rightarray[j]
             j += 1
-            k += 1
-
+            k += 1 
 
 list = [1, 5, 3, 8, 2] # paare: 5-3 | 5-2, 3-2, 8-2
 ic(
