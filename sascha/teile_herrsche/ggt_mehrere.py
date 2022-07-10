@@ -9,15 +9,12 @@ def ggt(list):
     x = list[0]
     y = list[1]
     r = x % y
+    if r == 0 and len(list) == 2:
+        return y
     if r == 0:
-        if len(list) > 2:
-            return ggt([y] + list[2:])
-        else:
-            return y
+        return ggt([y] + list[2:])            
     else:
         return ggt([y] + [r] + list[2:])
-
-
 
 ic(
     ggt([247, 589]),
