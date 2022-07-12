@@ -5,8 +5,6 @@ from re import X
 def threat(pos, i, j):
     return (pos[i] == pos[j] or abs(pos[i]-pos[j]) == abs(i-j))
 
-
-
 def damenproblem(n):
     pos = []
     x = 0

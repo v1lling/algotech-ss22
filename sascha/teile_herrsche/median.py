@@ -6,7 +6,6 @@ import math
 # KOMPLIZIERT
 
 def median_of_medians(A, left, right):
-    ic(A, left, right)
     if right - left <= 5:
         ic("sorting")
         B = A[left: right]
@@ -21,7 +20,8 @@ def median_of_medians(A, left, right):
 
     medians_tbd = []
     i = 0
-    while i+5 < len(A)-1:
+    ic(A)
+    while i+5 < len(A):
         medians_tbd.append(i)
         i = i + 5
     medians_tbd.append(i)
@@ -35,7 +35,9 @@ def median_of_medians(A, left, right):
     return median_of_medians(medians, 0, len(medians))
 
 list = [100,3,9,11,1,12,5]
+list2 = [10,1,67,20,56,8,43,90,54,34,0]
 
 ic(
-    median_of_medians(list, 0, len(list))
+    median_of_medians(list2, 0, len(list2))
+
 )
